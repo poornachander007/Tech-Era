@@ -1,0 +1,35 @@
+.not_found_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.not_found_img {
+  width: 600px;
+  height: 400px;
+}
+
+@media screen and (max-width: 767px) {
+  .not_found_img {
+    width: 300px;
+  }
+}
+
+.heading {
+  color: rgb(2, 2, 18);
+  font-size: 28px;
+}
+
+.para {
+  color: rgb(15, 15, 23);
+}
+/* 
+.retry_button {
+  background-color: rgb(7, 7, 52);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+} */

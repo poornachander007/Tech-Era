@@ -1,0 +1,82 @@
+.home_container {
+  width: 100%;
+  height: 90vh;
+  padding: 50px;
+}
+
+.heading {
+  color: rgb(2, 2, 18);
+  font-weight: bold;
+}
+
+.ul_courses_container {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.li_course_card {
+  list-style-type: none;
+  min-width: 20vw;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.course_image {
+  width: 65px;
+  height: 65px;
+  margin-right: 20px;
+}
+
+.course_name {
+  color: rgb(5, 5, 35);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.loader_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* failure */
+
+.failure_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.not_found_img {
+  width: 600px;
+  height: 400px;
+}
+
+@media screen and (max-width: 767px) {
+  .not_found_img {
+    width: 300px;
+  }
+}
+
+.heading {
+  color: rgb(2, 2, 18);
+  font-size: 28px;
+}
+
+.para {
+  color: rgb(15, 15, 23);
+}
+
+.retry_button {
+  background-color: rgb(7, 7, 52);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+}
